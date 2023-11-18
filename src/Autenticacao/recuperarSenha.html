@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuperando sua senha</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../loader.css" />
+
+    <link
+      href="../assets/favicon/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      type="image/png"
+      href="../assets/favicon/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+    />
+    <link
+      type="image/png"
+      href="../assets/favicon/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+    />
+    <link href="../assets/favicon/site.webmanifest" rel="manifest" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <span class="loader"></span>
+    <!-- Logo -->
+    <main>
+      <header>
+        <img src="../assets/logos/eteclab.png" alt="Logo" />
+        <h2 class="header-container--forgot-password">
+          Ei, esqueceu sua senha? Sem problemas, vamos resolver isso rapidinho!
+          <span class="hightlight-text"> Digite seu e-mail abaixo</span>
+          e te mandaremos um link para recuperar sua senha! 😉
+        </h2>
+      </header>
+      <div class="form-container">
+        <form class="form" novalidate>
+          <div class="form-control">
+            <label for="email"
+              >E-mail<span class="required-icon">*</span>
+            </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              alt="Digite seu e-mail"
+              placeholder="Um e-mail no qual podemos nos falar"
+            />
+            <i class="fa-sharp fa-solid fa-envelope input-icons"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+          </div>
+          <section class="container-create-account">
+            <button class="btn-primary" type="submit">Recuperar senha</button>
+            <p>
+              Ótimo, você lembrou sua senha!
+              <a class="hightlight-text" href="../Autenticacao/login.html"
+                >Faça login agora</a
+              >
+            </p>
+          </section>
+        </form>
+      </div>
+      <div class="toast-container"></div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/5e88aa52d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

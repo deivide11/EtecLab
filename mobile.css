@@ -1,0 +1,167 @@
+@media screen and (max-width: 390px)  {
+
+  .c-links__sec {
+    margin-bottom: 65px;
+  }
+
+  .section-h1{
+    font-size: 32px;
+    width: 340px;
+  }
+
+  .section-p{
+    font-size: 16px;
+    width: 300px;
+  }
+
+  #eteclab {
+    margin-bottom: 0px;
+    padding: 12px;
+  }
+
+  #eteclab, #que_praticar{
+    gap: 24px;
+  }
+
+
+  .cssbuttons-io {
+    font-size: 13px;
+  }
+  
+
+  #que_praticar {
+    height: 38rem;
+    margin-bottom: 90px;
+  }
+
+
+  #eteclab > p, #que_praticar > p {
+    line-height: 24px;
+  }
+
+  .c-btn__anim{
+    margin: 10px 0px;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .btn__anim {
+    font-size: 1rem;
+  }
+
+  .c-btn__anim > span {
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .btn-curso{
+    width: 20rem;
+  }
+
+  #praticar {
+    margin-bottom: 100px;
+    gap: 24px;
+  }
+
+  .box-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    margin-bottom: 35px;
+    gap: 0;
+  }
+
+  .topicos-lang {
+      width: 40vw;
+      height: 200px;
+  }
+
+  .topicos-lang > div {
+      width: 100px;
+      height: 95px;
+      font-size: 1.5rem;
+  }
+
+  .topicos-title {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: normal;
+  }
+
+  .topicos-c {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .topicos-p, .topicos-p:nth-child(2) {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .topicos-c__box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  svg{
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 340px;
+  }
+
+  .wrapper  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+  }
+
+  .wrapper > p {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .segundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+  }
+
+  .box1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+  }
+
+  .box1 > a {
+    display: none;
+  }
+
+  #eteclab, #que_praticar, #praticar, #quem_somos, main, .topicos, .container, .topicos-c{
+    max-width: 100%;
+  }
+
+}

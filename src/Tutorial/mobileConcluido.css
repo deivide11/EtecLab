@@ -1,0 +1,14 @@
+@media screen and (max-width: 390px){
+    .desc2{
+        width: 16rem;
+    }    
+
+    .btn-concluido {
+        width: 22rem;
+        gap: 30px;
+    }
+
+    .btn-size {
+        font-size: 15px;
+    }
+}

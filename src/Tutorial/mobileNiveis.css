@@ -1,0 +1,32 @@
+@media screen and (max-width: 790px) {
+  h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  h1 {
+    display: inline;
+    width: 90%;
+    font-size: 15px;
+    height: 5rem;
+    padding-bottom: 6.25rem;
+  }
+
+  .c-modulos {
+    gap: 1rem;
+  }
+
+  .c-modulos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.1875rem;
+    width: 100vw;
+  }
+
+  .footer-btn {
+    width: 300px;
+    gap: 45px;
+  }
+}

@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 768px){
+  header {
+    margin-bottom: 4rem;
+    padding: 2rem 2rem;
+    font-size: 13px;
+    width: 100vw;
+  }
+
+  nav > ul {
+    gap: 35px;
+  }
+
+  .btn-nav-abrir-conta {
+    font-size: 0.9rem;
+  }
+
+  .section-h1 {
+    font-size: var(--fontSize-xl);
+    text-align: center;
+  }
+
+  .section-p{
+  width: 680px;
+  font-size: 24px;
+}
+
+.section-temas-abordados{
+  text-align: center;
+  padding: 24px;
+}
+
+  #eteclab {
+    margin-bottom: 95px;
+  }
+
+
+  .btn-curso {
+    width: 35rem;
+  }
+
+  .btn__anim {
+    font-size: 1.5rem;
+  }
+
+
+  .box-main {
+    width: 485px;
+  }
+
+  .topicos-c {
+    width: 40rem;
+  }
+
+  .topicos-p {
+    width: 25.5rem;
+    font-size: 1rem;
+  }
+
+  svg {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    gap: 24px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    gap: 24px;
+  }
+
+  .segundo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 24px;
+  }
+}

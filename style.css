@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --border-purple: #5410ff;
+
+  --bg-purple-normal: #7944ff;
+  --bg-purple-hover: #8353ff;
+  --bg-purple-clicked: #7944ff;
+  --bg-black-normal: #181818;
+  --bg-black-hover: #242424;
+  --bg-black-clicked: #121212;
+  --font-family: "Raleway", monospace;
+
+  --icon-purple: #5410ff;
+  --icon-black: #333333;
+
+  --black: #040404;
+
+  --fontSize-2xl: 4rem;
+  --fontSize-xl: 3rem;
+  --fontSize-lg: 2rem;
+  --fontSize-md: 1.5rem;
+  --fontSize-sm: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 0;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #040404;
+  font-family: var(--font-family);
+  height: 100vh;
+  color: rgb(105, 105, 105);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+header {
+  background-color: #040404;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.6rem;
+  padding: 2rem 10rem;
+  width: 100%;
+}
+a {
+  color: white;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: space-evenly;
+}
+
+.btn-nav-abrir-conta {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #373737;
+  background-color: var(--bg-black-normal);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-nav-abrir-conta:hover {
+  border: 1px solid #8757ff;
+  color: #ffffff;
+  background: #5410ff;
+}
+
+/* .navbar-conta {
+  display: flex;
+  width: 50%;
+  border: 1px solid red;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+/* Fim do nav */
+
+#eteclab,
+#que_praticar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 160px;
+}
+
+#eteclab > h1,
+#que_praticar > h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-h1{
+  font-size: var(--fontSize-2xl);
+}
+#eteclab > p,
+#que_praticar > p {
+  color: #535353;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+}
+
+.section-p{
+  width: 960px;
+  font-size: 32px;
+}
+
+#eteclab > p > span {
+  color: var(--bg-purple-normal);
+}
+
+#eteclab > a {
+  padding: 10px 20px;
+  background-color: var(--bg-purple-normal);
+  border-radius: 7px;
+  border: 1px solid var(--border-purple);
+}
+
+/* Segunda parte */
+
+#que_praticar > p {
+  text-align: center;
+  display: block;
+  color: #535353;
+}
+
+.btn-curso {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 450px;
+}
+
+.btn__anim {
+  display: flex;
+  justify-content: center;
+}
+
+.c-btn__anim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 24px;
+  cursor: pointer;
+  border-width: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #4a4a4a;
+  background-color: #040404;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.c-btn__anim span {
+  color: #fff;
+  background-color: #333333;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.c-btn__anim:hover {
+  background-color: var(--bg-purple-hover);
+  transition: all 0.3s ease-in-out;
+}
+
+.btnAprenderAnim,
+.btnPraticarAnim,
+.btnEvoluirAnim {
+  animation: anim-button1 3s infinite;
+}
+
+.btnAprenderAnim {
+  animation-delay: 1s;
+}
+
+.btnPraticarAnim {
+  animation-delay: 2s;
+}
+
+.btnEvoluirAnim {
+  animation-delay: 3s;
+}
+
+@keyframes anim-button1 {
+  15% {
+    background-color: var(--bg-purple-hover);
+    color: #ffffff;
+  }
+  45% {
+    background-color: #040404;
+  }
+  60% {
+    background-color: #040404;
+  }
+  100% {
+    background-color: #040404;
+  }
+}
+
+span {
+  color: #7a45ff;
+}
+
+.c-links__primary {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  padding: 10px 20px;
+  background-color: var(--bg-purple-normal);
+  border-radius: 7px;
+  border: 1px solid #c5aeff;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.c-links__primary:hover {
+  background-color: var(--bg-purple-hover);
+}
+
+.c-links__primary:active {
+  background-color: var(--bg-purple-clicked);
+}
+
+.c-links__sec {
+  color: rgb(153, 153, 153);
+  transition: all 0.3s ease-in-out;
+}
+
+.c-links__sec:hover {
+  color: var(--bg-purple-clicked);
+}
+
+#que_praticar > a {
+  font-size: 12px;
+  color: #535353;
+  font-weight: 400;
+}
+
+/* Terceira parte */
+
+#praticar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 140px;
+  gap: 48px;
+}
+
+#praticar > h3 {
+  font-size: var(--fontSize-xl);
+}
+
+#praticar > .text-first {
+  color: #535353;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  font-weight: 700;
+  gap: 2rem;
+}
+
+.html {
+  background-color: #e44d26;
+  color: #9f2f13;
+}
+
+.c {
+  background-color: #7141fd;
+  color: #35139a;
+}
+
+.js {
+  background-color: #f6d31a;
+  color: #806d0bf7;
+}
+
+.css {
+  background-color: #1971f6;
+  color: #0b3f8d;
+}
+
+.php {
+  background-color: #7a86b8;
+  color: #4a5896;
+}
+
+/* Quarta parte */
+
+.topicos {
+  display: flex;
+  flex-direction: column;
+}
+
+.topicos-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topicos-lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.sql {
+  background-color: white;
+  color: black;
+}
+
+.topicos-lang > div {
+  border-radius: 7px;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.topicos-lang > .topicos-title {
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  margin-top: 20px;
+  background-color: var(--bg-black-normal);
+}
+
+.topicos-p {
+  font-size: 1.2rem;
+  width: 780px;
+}
+
+.topicos-p:nth-child(2) {
+  text-align: end;
+}
+
+.c-links__sec {
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3.125rem 0rem;
+  padding: 20px;
+  width: 960px;
+}
+
+.c-topicos__p {
+  font-size: 1.2rem;
+  margin: 2.5rem 0rem;
+}
+
+.segundo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.box1 {
+  text-align: end;
+}
+
+.paragraph-loop {
+  color: #66daff;
+}
+
+.container img,
+.segundo img {
+  width: 150px;
+  height: 150px;
+}
+
+.social-title {
+  font-size: 36px;
+  color: #fff;
+}
+
+/*  Animation  */
+
+.cssbuttons-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  border: 1px solid var(--bg-purple-normal);
+  background: linear-gradient(to right, #7944ff, #5820e6);
+  color: rgb(14, 14, 14);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.c-button__primary span {
+  color: white;
+}
+.c-button__primary:hover span {
+  color: #ffffff;
+}
+.cssbuttons-io svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+}
+
+.cssbuttons-io span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cssbuttons-io::before {
+  content: "";
+  background: #000;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.6s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-io:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+  transform: scale(0.95);
+}
+
+footer {
+  margin-top: 96px;
+  padding: 24px;
+}

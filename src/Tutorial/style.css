@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+
+body{
+    background: #040404;
+    font-family: 'Poppins', sans-serif;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-size:20px ;
+    color: #6D6D6D;
+    width: 40rem;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.c-modulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+.box-html, .box-csharp, .box-js, .box-gray{
+    border: 1px solid #161616;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    width: 8.625rem;
+    height: 8.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 13.125rem;
+    font-size:20px ;
+    color: #6D6D6D;
+    width: 39.375rem;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.nvl1{
+    color: #FF5A2E;
+}
+
+.nvl3{
+   color: #F6D31A;
+}
+
+/* Concluido tutorial */
+.tutorial-logo{
+    width: 11rem;
+    height: 11rem;
+    background: linear-gradient(136.15deg, #5217FF 11.2%, #7C55F2 96.43%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bounce-in-top, .rotate-canter {
+	-webkit-animation: bounce-in-top 1.3s 0.3s ;
+    animation: rotate-center 0.5s ease-in-out 0.8s both;
+	        animation: bounce-in-top 1.3s 0.3s ;
+            
+}
+
+ @-webkit-keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+.concluido{
+    background: #121214;
+    border: 1px solid #323232;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 176px;
+    height: 40px;
+    margin: 24px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-criar{
+    width: 190px;
+    height: 45px;
+    background: #4816DE;
+    border: 1px solid #5C2BEF;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-possui{
+    width: 224px;
+    height: 45px;
+    background: #1B1B1B;
+    border: 1px solid #494949;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/* Niveis */
+
+.modulo{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.btn-js, .btn-csharp, .btn-html, .btn-gray{
+    width: 138px;
+    height: 40px;
+    background: #121214;
+    border-radius: 4px;
+    margin-top:24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-gray, .btn-gray{
+    background: #191919;
+    color: #737373;
+    border: 1px solid #4B4B4B;
+}
+
+.box-html{
+    background: #FF5A2E;
+    color: #9F2F13;
+    border: 1px solid #4B4B4B;
+}
+
+.box-csharp{
+    background: #830BFB;
+    color: #FFFFFF;
+    border: 1px solid #B46AFF;
+}
+
+.box-js{
+    background: #F6D31A;
+    color:#806D0BF7;
+    border: 1px solid #FFDB1B;
+
+}
+
+
+
+.btn-html.inactive, .btn-csharp.inactive, .btn-js.inactive {
+    color: #737373;
+    border: 1px solid #4B4B4B;
+    background: #191919;
+}
+
+.btn-html{
+    border: 1px solid #EC6642;
+    color: white;
+    background-color: #040404;
+}
+
+.btn-csharp{
+    border: 1px solid #B46AFF;
+    color: white;
+    background-color: #040404;
+}
+
+.btn-js{
+    border: 1px solid #FFF27A;
+    color: white;
+    background-color:#040404;
+}
+
+
+a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+footer{
+    border-top: 1px solid #292929;
+    height: 94px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35rem;
+}
+
+.btn-voltar, .btn-confirmar{
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-voltar{
+    background: #1B1B1B;
+    border: 1px solid #202024;
+    width: 176px;
+    height: 45px;
+}
+
+.btn-confirmar{
+    background: #1971F6;
+    border: 1px solid #4D93FB;
+    width: 190px;
+    height: 45px;
+}
+
+.btn-confirmar.btn-inactive{
+    background: #737373;
+    border: 1px solid #4B4B4B;
+    pointer-events: none;
+    user-select: none;
+}
+
+.seu-nome{
+    color: #d3b2ff;
+}
+
+input{
+    width: 37rem;
+    height: 65px;
+    background: #181818;
+    border: 1px solid #202024;
+    border-radius: 6px;
+    padding-left:28px ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;    
+    outline: none;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    color: #7F7F7F;    
+}
+

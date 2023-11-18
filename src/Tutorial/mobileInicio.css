@@ -1,0 +1,24 @@
+@media screen and (max-width: 790px) {
+  main {
+    width: 90%;
+    text-align: center;
+  }
+
+  .desc1 {
+    width: 95%;
+    font-size: 0.9rem;
+  }
+
+  .desc1 > .seu-nome {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  input {
+    width: 20rem;
+  }
+
+  .btn-confirmar {
+    width: 20rem;
+  }
+}
